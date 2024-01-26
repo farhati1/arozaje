@@ -1,0 +1,47 @@
+GET http://localhost:3000/users/Farhati
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+
+{
+  "userId": "Faysoil",
+  "name": "Bacari",
+  "lastName": "Utilisateur",
+  "age": 25,
+  "email": "nouveau@mail.fr",
+  "password": "momo",
+  "isBotaniste": true,
+  "adresse": "456 Rue du Nouveau"
+}
+
+###
+
+
+
+
+###
+
+DELETE http://localhost:3000/users/63fde6ff68a9cef5e7b49045
+
+###
+
+GET http://localhost:3000/posts
+
+###
+
+POST http://192.172.20.10.2:3000/posts
+Content-Type: application/json
+
+{
+    "userId": "siirsir", 
+    "name": "sirine", 
+    "lastName" : "dif",
+    "age": 20, 
+    "email" : "hello"
+}
+
+
+

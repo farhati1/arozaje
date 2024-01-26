@@ -1,0 +1,20 @@
+export const fakeSettings = [
+    {
+        id: 1,
+        libelle: 'paddingVertical: ,rofil',
+    },
+    {
+        id: 2,
+        libelle: 'Mes posts',
+    },
+
+    {
+        id: 3,
+        libelle: 'Mes gardes',
+    },
+    {
+        id: 4,
+        libelle: 'Me déconnecter',
+
+    }
+];
